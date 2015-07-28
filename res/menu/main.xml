@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.xdailyselfy.MainActivity" >
+
+    <item android:id="@+id/action_take_selfy"
+          android:icon="@android:drawable/ic_menu_camera"
+          android:title="@string/action_take_selfy"
+          android:showAsAction="ifRoom" />    
+    <item
+        android:id="@+id/action_reload"
+        android:orderInCategory="100"
+        android:title="@string/reload_images"/>
+
+</menu>
